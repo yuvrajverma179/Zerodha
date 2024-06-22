@@ -4,7 +4,7 @@ function Pricing() {
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="col-6 border" style={{ paddingLeft: "110px" }}>
+        <div className="col-6" style={{ paddingLeft: "110px" }}>
           <h2 className="mt-5 mb-4">Unbeatable pricing</h2>
           <p style={{ fontSize: "14px", marginBottom: "10px" }}>
             We pioneered the concept of discount broking and price transparency
@@ -15,7 +15,7 @@ function Pricing() {
           </a>
         </div>
         <div
-          className="col-6 border"
+          className="col-6"
           style={{ paddingLeft: "0px", paddingRight: "20px" }}
         >
           <div className="row" style={{ marginTop: "3.5rem" }}>

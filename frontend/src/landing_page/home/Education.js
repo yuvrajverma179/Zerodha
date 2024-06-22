@@ -3,16 +3,16 @@ import React from "react";
 function Education() {
   return (
     <>
-      <div className="container border mt-5 mb-5">
+      <div className="container mt-5 mb-5">
         <div className="row">
-          <div className="col border pt-5 pb-5">
+          <div className="col pt-5 pb-5">
             <img
               src="media/images/home-education.png"
               alt="Home-Eductaion Image"
               style={{ width: "90%", height: "90%", paddingLeft: "110px" }}
             />
           </div>
-          <div className="col border pt-5" style={{ paddingRight: "120px" }}>
+          <div className="col pt-5" style={{ paddingRight: "120px" }}>
             <h4 className="mb-4">Free and open market education</h4>
             <p style={{ fontSize: "14px" }} className="mb-2">
               Varsity, the largest online stock market education book in the

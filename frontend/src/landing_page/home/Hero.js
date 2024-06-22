@@ -1,11 +1,18 @@
 import React from "react";
+import { useState } from "react";
 
 function Hero() {
-  function HandleMouseover() {}
-
+  const [isHover, setisHover] = useState(false);
+  // Hover Styling on Signup Button
+  const handleMouseEnter = () => {
+    setisHover(true);
+  };
+  const handleMouseLeave = () => {
+    setisHover(false);
+  };
   return (
     <>
-      <div className="container pt-5 pb-5 border">
+      <div className="container pt-5 pb-5">
         <div className="row text-center">
           <img
             src="media/images/home-hero.png"
@@ -21,8 +28,15 @@ function Hero() {
             more
           </p>
           <button
-            style={{ width: "12.5%", borderRadius: "3px", fontWeight: "600" }}
+            style={{
+              width: "12.5%",
+              borderRadius: "3px",
+              fontWeight: "600",
+              backgroundColor: isHover ? "black" : "#387ed1",
+            }}
             className="btn btn-primary fs-6 m-auto"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
           >
             Sign up now
           </button>

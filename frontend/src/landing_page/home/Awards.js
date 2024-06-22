@@ -2,10 +2,10 @@ import React from "react";
 
 function Awards() {
   return (
-    <div className="container mt-5 border mb-5">
-      <div className="row border">
+    <div className="container mt-5 mb-5">
+      <div className="row">
         {/* Image Section */}
-        <div className="col-6 border">
+        <div className="col-6">
           <div className="row">
             <div className="col offset-2">
               <img
@@ -17,14 +17,14 @@ function Awards() {
           </div>
         </div>
 
-        <div className="col-6 border" style={{ paddingRight: "100px" }}>
+        <div className="col-6" style={{ paddingRight: "100px" }}>
           <h2 className="mb-4">Largest stock broker in India</h2>
           <p className="mb-4" style={{ fontSize: "0.90rem" }}>
             1.5+ Crore Zerodha clients contribute to over 15% of all retail
             order volumes in India daily by trading and investing in:
           </p>
           <div className="row">
-            <div className="col-6 border">
+            <div className="col-6">
               <ul>
                 <li
                   className="mr-2 ml-0 mt-2 mb-2"
@@ -46,7 +46,7 @@ function Awards() {
                 </li>
               </ul>
             </div>
-            <div className="col-6 border">
+            <div className="col-6">
               <ul>
                 <li
                   className="mr-2 ml-0 mt-2 mb-2"

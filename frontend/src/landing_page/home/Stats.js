@@ -2,9 +2,9 @@ import React from "react";
 
 function Stats() {
   return (
-    <div className="container border mt-5 mb-5">
+    <div className="container mt-5 mb-5">
       <div className="row">
-        <div className="col-6 pt-3 border" style={{ paddingLeft: "110px" }}>
+        <div className="col-6 pt-3" style={{ paddingLeft: "110px" }}>
           <h2 className="mb-4">Trust with confidence</h2>
           <h6 className="mt-4 mb-3">Customer-first always</h6>
           <p className="text-muted mb-4" style={{ fontSize: "14px" }}>
@@ -29,9 +29,9 @@ function Stats() {
           </p>
         </div>
 
-        <div className="col-6 pt-4 border">
+        <div className="col-6 pt-4 ">
           <img
-            src="media/images/home-stats.png"
+            src="media/images/home-image.png"
             alt="Home Stats Image"
             style={{ width: "85%", height: "100%" }}
           />
@@ -43,7 +43,6 @@ function Stats() {
               paddingLeft: "70px",
               textDecoration: "none",
             }}
-            className="border"
           >
             Explore our products &nbsp; <i class="fa-solid fa-arrow-right"></i>
           </a>
