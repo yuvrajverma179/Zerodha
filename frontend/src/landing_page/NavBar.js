@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [isHover, setisHover] = useState(false);
@@ -15,18 +16,18 @@ function NavBar() {
     <>
       <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary pt-0 pb-0">
         <div class="container-fluid border" style={{ height: "48px" }}>
-          <a class="navbar-brand offset-2" href="#">
+          <Link class="navbar-brand offset-2" to="/">
             <img
               src="media/images/logo.png"
               style={{ width: "100px", margin: "" }}
               alt="Logo"
             />
-          </a>
+          </Link>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-aorund offset-3">
             <li class="nav-item p-2 text-muted">
-              <a
+              <Link
                 class="nav-link"
-                href="#"
+                to="/signup"
                 style={{
                   fontSize: "13px",
                   marginLeft: "3px",
@@ -37,12 +38,12 @@ function NavBar() {
                 onMouseLeave={handleMouseLeave}
               >
                 Signup
-              </a>
+              </Link>
             </li>
             <li class="nav-item p-2 text-muted">
-              <a
+              <Link
                 class="nav-link"
-                href="#"
+                to="/about"
                 style={{
                   fontSize: "13px",
                   marginLeft: "3px",
@@ -53,12 +54,12 @@ function NavBar() {
                 onMouseLeave={handleMouseLeave}
               >
                 About
-              </a>
+              </Link>
             </li>
             <li class="nav-item p-2 text-muted">
-              <a
+              <Link
                 class="nav-link"
-                href="#"
+                to="/products"
                 style={{
                   fontSize: "13px",
                   marginLeft: "3px",
@@ -69,12 +70,12 @@ function NavBar() {
                 onMouseLeave={handleMouseLeave}
               >
                 Products
-              </a>
+              </Link>
             </li>
             <li class="nav-item p-2 text-muted">
-              <a
+              <Link
                 class="nav-link"
-                href="#"
+                to="/pricing"
                 style={{
                   fontSize: "13px",
                   marginLeft: "3px",
@@ -85,12 +86,12 @@ function NavBar() {
                 onMouseLeave={handleMouseLeave}
               >
                 Pricing
-              </a>
+              </Link>
             </li>
             <li class="nav-item p-2 text-muted">
-              <a
+              <Link
                 class="nav-link"
-                href="#"
+                to="/support"
                 style={{
                   fontSize: "13px",
                   marginLeft: "3px",
@@ -101,7 +102,7 @@ function NavBar() {
                 onMouseLeave={handleMouseLeave}
               >
                 Support
-              </a>
+              </Link>
             </li>
             <li class="nav-item p-2">
               <a
