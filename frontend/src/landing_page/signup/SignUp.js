@@ -1,15 +1,16 @@
-import React from 'react'
-import NavBar from '../NavBar';
-import Footer from '../Footer';
+import React from "react";
+import Footer from "../Footer";
+import NavBar2 from "./NavBar2";
+import Hero from "./hero";
 
 function SignUp() {
-    return ( 
-        <>
-        <NavBar />
-        <h1>SignUp</h1>
-        <Footer />
-        </>
-    );
+  return (
+    <>
+      <NavBar2 />
+      <Hero />
+      <Footer />
+    </>
+  );
 }
 
 export default SignUp;
