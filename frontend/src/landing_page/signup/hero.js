@@ -8,7 +8,7 @@ function hero() {
           {/* Image Section */}
           <div className="col-7 border" style={{ alignItems: "center" }}>
             <img
-              src="media/images/signup.png"
+              src="media/images/signupimage.png"
               alt="signup image"
               style={{ width: "76%", paddingLeft: "70px" }}
               className="offset-2"
