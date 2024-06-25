@@ -4,9 +4,11 @@ function CreateTicket() {
   return (
     <>
       <div className="container">
-        <div className="row mb-5">
-          <div className="offset-2" style={{ fontSize: "16px" }}>
-            To create a ticket, select a relevant topic
+        <div className="row mb-5 mt-5">
+          <div className="offset-2">
+            <h3 style={{ fontSize: "20px", fontWeight: "470" }}>
+              To create a ticket, select a relevant topic
+            </h3>
           </div>
         </div>
         <div className="row">
