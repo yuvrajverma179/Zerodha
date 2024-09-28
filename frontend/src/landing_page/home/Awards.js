@@ -2,78 +2,46 @@ import React from "react";
 
 function Awards() {
   return (
-    <div className="container mt-5 mb-5">
+    <div className="container mt-5">
       <div className="row">
-        {/* Image Section */}
-        <div className="col-6">
-          <div className="row">
-            <div className="col offset-2">
-              <img
-                src="media/images/home-awards.png"
-                alt="Home Awards image"
-                style={{ width: "350px", height: "228px" }}
-              />
-            </div>
-          </div>
+        <div className="col-6 p-5">
+          <img src="media/images/largestBroker.svg" />
         </div>
-
-        <div className="col-6" style={{ paddingRight: "100px" }}>
-          <h2 className="mb-4">Largest stock broker in India</h2>
-          <p className="mb-4" style={{ fontSize: "0.90rem" }}>
-            1.5+ Crore Zerodha clients contribute to over 15% of all retail
+        <div className="col-6 p-5 mt-5">
+          <h1>Largest stock broker in India</h1>
+          <p className="mb-5">
+            2+ million Zerodha clients contribute to over 15% of all retail
             order volumes in India daily by trading and investing in:
           </p>
           <div className="row">
             <div className="col-6">
               <ul>
-                <li
-                  className="mr-2 ml-0 mt-2 mb-2"
-                  style={{ fontSize: "0.85rem" }}
-                >
-                  Futures and Options
+                <li>
+                  <p>Futures and Options</p>
                 </li>
-                <li
-                  className="mr-2 ml-0 mt-2 mb-2"
-                  style={{ fontSize: "0.85rem" }}
-                >
-                  Commodity derivatives
+                <li>
+                  <p>Commodity derivatives</p>
                 </li>
-                <li
-                  className="mr-2 ml-0 mt-2 mb-2"
-                  style={{ fontSize: "0.85rem" }}
-                >
-                  Currency derivatives
+                <li>
+                  <p>Currency derivatives</p>
                 </li>
               </ul>
             </div>
             <div className="col-6">
               <ul>
-                <li
-                  className="mr-2 ml-0 mt-2 mb-2"
-                  style={{ fontSize: "0.85rem" }}
-                >
-                  Stocks & IPOs
+                <li>
+                  <p>Stocks & IPOs</p>
                 </li>
-                <li
-                  className="mr-2 ml-0 mt-2 mb-2"
-                  style={{ fontSize: "0.85rem" }}
-                >
-                  Direct mutual funds
+                <li>
+                  <p>Direct mutual funds</p>
                 </li>
-                <li
-                  className="mr-2 ml-0 mt-2 mb-2"
-                  style={{ fontSize: "0.85rem" }}
-                >
-                  Bonds and Govt. Securities
+                <li>
+                  <p>Bonds and Govt. Securities</p>
                 </li>
               </ul>
             </div>
           </div>
-          <img
-            src="media/images/home-hero(2).png"
-            alt="Home Hero (2)"
-            style={{ width: "100%", height: "10%" }}
-          />
+          <img src="media/images/pressLogos.png" style={{ width: "90%" }} />
         </div>
       </div>
     </div>
